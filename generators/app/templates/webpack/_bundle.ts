@@ -1,5 +1,5 @@
 import * as webpack from 'webpack';
-import config from './_base';
+import config from './base';
 
 const bundleConfig = {
   ...config,

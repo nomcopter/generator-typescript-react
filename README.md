@@ -1,4 +1,4 @@
-# @nomcopter/generator-typescript-react
+# generator-typescript-react
 [![CircleCI](SHIELDS IO LINK)](CIRCLE LINK)
 [![npm](SHIELDS IO LINK)](NPM PACKAGE LINK)
 

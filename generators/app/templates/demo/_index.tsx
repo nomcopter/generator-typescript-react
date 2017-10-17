@@ -1,7 +1,10 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
-import { Demo } from './_Demo';
+import '../styles/index.less';
+
+import { Demo } from './Demo';
+import './demo.less';
 
 const APP_ELEMENT = document.getElementById('app')!;
 const render = (Component: React.ComponentClass<any>) => {

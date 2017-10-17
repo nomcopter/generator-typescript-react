@@ -1,6 +1,6 @@
 import * as webpack from 'webpack';
-import config from './_base';
-import { CONSTANTS } from './_constants';
+import config from './base';
+import { CONSTANTS } from './constants';
 
 const baseEntry = config.entry as webpack.Entry;
 const entry = {

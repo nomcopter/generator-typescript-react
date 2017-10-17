@@ -1,6 +1,6 @@
 import * as HtmlWebpackPlugin from 'html-webpack-plugin';
 import * as webpack from 'webpack';
-import { CONSTANTS } from './_constants';
+import { CONSTANTS } from './constants';
 
 // tslint:disable-next-line no-var-requires
 const VENDOR_LIBS = Object.keys(require('../package.json').dependencies);
