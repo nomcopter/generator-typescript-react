@@ -27,7 +27,7 @@ An opinionated Yeoman Generator for a Typescript + React ready build system.
 1. Create the directory for your new project and run the generator
 
     ```bash
-    mkdir new-typescript-react-project
+    mkdir my-typescript-react-project
     cd !$
     yo typescript-react
     ```
