@@ -2,7 +2,7 @@
 [![CircleCI](https://img.shields.io/circleci/project/github/nomcopter/generator-typescript-react/master.svg)](https://circleci.com/gh/nomcopter/generator-typescript-react)
 [![npm](https://img.shields.io/npm/v/generator-typescript-react.svg)](https://www.npmjs.com/package/generator-typescript-react)
 
-An opinionated Yeoman Generator for a Typescript + React ready build system.
+An opinionated [Yeoman](http://yeoman.io/) Generator for a Typescript + React ready build system.
 
 ## Usage
 
@@ -27,7 +27,7 @@ An opinionated Yeoman Generator for a Typescript + React ready build system.
 1. Create the directory for your new project and run the generator
 
     ```bash
-    mkdir my-typescript-react-project
+    mkdir my-new-typescript-react-project
     cd !$
     yo typescript-react
     ```
