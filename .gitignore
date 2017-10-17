@@ -1,0 +1,4 @@
+.idea/
+node_modules/
+.*.swp
+generators/app/index.js

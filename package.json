@@ -1,0 +1,30 @@
+{
+  "name": "generator-typescript-react",
+  "version": "0.1.0",
+  "description": "An opinionated Yeoman Generator for a Typescript + React ready build system",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nomcopter/generator-typescript-react.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm generators/app/index.js",
+    "test": "npm run clean && npm run build"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "@types/yeoman-generator": "^1.0.4",
+    "yeoman-generator": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.77",
+    "lodash": "^4.17.4",
+    "typescript": "^2.5.3"
+  }
+}
