@@ -1,5 +1,5 @@
 # <%= humanReadableName %>
-[![CircleCI](https://img.shields.io/circleci/token/TOKEN/project/github/ORGANIZATION/<%= kebabCaseName %>/master.svg)](https://circleci.com/gh/ORGANIZATION/<%= kebabCaseName %>)
+[![CircleCI](https://img.shields.io/circleci/project/github/ORGANIZATION/<%= kebabCaseName %>/master.svg)](https://circleci.com/gh/ORGANIZATION/<%= kebabCaseName %>)
 [![npm](https://img.shields.io/npm/v/<%= kebabCaseName %>.svg)](https://www.npmjs.com/package/<%= kebabCaseName %>)
 
 ## Usage
