@@ -1,6 +1,6 @@
 {
   "name": "generator-typescript-react",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "An opinionated Yeoman Generator for a Typescript + React ready build system",
   "license": "MIT",
   "repository": {
