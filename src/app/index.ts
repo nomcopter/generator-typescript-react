@@ -37,8 +37,7 @@ class GeneratorTypescriptReact extends Base {
     ]);
     this._copyWithTemplating(allTemplateData, ['.gitignore', 'package.json', 'README.md']);
 
-    this._copyWithoutTemplating(['demo.less', 'index.tsx'], 'demo');
-    this._copyWithTemplating(allTemplateData, ['Demo.tsx'], 'demo');
+    this._copyWithoutTemplating(['demo.less', 'index.tsx', 'Demo.tsx'], 'demo');
 
     this._copyWithTemplating(allTemplateData, ['index.ts'], 'src');
 
